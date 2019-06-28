@@ -18,7 +18,18 @@ NONE
   <Repository>hellowlol/bw_plex</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment/>
+  <Environment>
+     <Variable>
+      <Name>url</Name>
+      <Value>192.168.0.2:32400</Value>
+      <Description>The URL for your Plex Server</Description>
+    </Variable>
+    <Variable>
+      <Name>token</Name>
+      <Value>XXXXXXXXXXXXXXX</Value>
+      <Description>The TOKEN for your Plex Server, find it using this guide: https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/</Description>
+    </Variable>
+  </Environment>
   <Networking>
     <Mode>bridge</Mode>
   </Networking>
