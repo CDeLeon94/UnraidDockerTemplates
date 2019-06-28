@@ -21,7 +21,7 @@ NONE
   <Environment>
      <Variable>
       <Name>url</Name>
-      <Value>192.168.0.2:32400</Value>
+      <Value>http://192.168.0.5:32400/</Value>
       <Description>The URL for your Plex Server</Description>
     </Variable>
     <Variable>
