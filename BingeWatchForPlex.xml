@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="1">
+  <Date>2019-6-18</Date>
+  <Beta>False</Beta>
+  <Category>Cloud:</Category>
+  <Name>BingeWatch for Plex</Name>
+  <Project>https://github.com/Hellowlol/bw_plex/</Project>
+  <Changes>
+NONE
+  </Changes>
+  <Overview>
+    Bingewatch tool to get rid of intro's and outro's 
+  </Overview>
+  <Description>
+  </Description>
+  <Registry>example.com</Registry>
+  <GitHub>https://github.com/CDeLeon94/UnraidDockerTemplates/</GitHub>
+  <Repository>CDeLeon94/UnraidDockerTemplates</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/BWPlex</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+
+  <Network Default="bridge">bridge</Network>
+</Container>
