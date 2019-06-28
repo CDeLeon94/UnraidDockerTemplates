@@ -23,11 +23,6 @@ NONE
     <Mode>bridge</Mode>
   </Networking>
   <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/BWPlex</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
 
   <Network Default="bridge">bridge</Network>
