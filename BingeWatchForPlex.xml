@@ -15,7 +15,7 @@ NONE
   </Description>
   <Registry>example.com</Registry>
   <GitHub>https://github.com/CDeLeon94/UnraidDockerTemplates/</GitHub>
-  <Repository>CDeLeon94/UnraidDockerTemplates</Repository>
+  <Repository>hellowlol/bw_plex</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
