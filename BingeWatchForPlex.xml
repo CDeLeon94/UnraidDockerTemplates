@@ -2,7 +2,7 @@
 <Container version="1">
   <Date>2019-6-18</Date>
   <Beta>False</Beta>
-  <Category>Cloud:</Category>
+  <Category>MediaServer:Video</Category>
   <Name>BingeWatch for Plex</Name>
   <Project>https://github.com/Hellowlol/bw_plex/</Project>
   <Changes>
@@ -13,7 +13,7 @@ NONE
   </Overview>
   <Description>
   </Description>
-  <Registry>example.com</Registry>
+  <Registry>https://hub.docker.com/r/hellowlol/bw_plex</Registry>
   <GitHub>https://github.com/CDeLeon94/UnraidDockerTemplates/</GitHub>
   <Repository>hellowlol/bw_plex</Repository>
   <BindTime>true</BindTime>
